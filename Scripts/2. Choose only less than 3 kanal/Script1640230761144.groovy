@@ -53,7 +53,6 @@ Mobile.verifyElementExist(findTestObject('STARTER MENU/android.widget.TextView -
 //kita ubah caranya dengan getattribute terlebih dulu, lalu verifikasi value dari elemen tersebut.
 //di contoh kali ini kita get attribute nya, yaitu attribute "checked", dan kita harus verifikasi,
 //bahwa atribut tsb memiliki nilai "false"
-Mobile.getAttribute(findTestObject('STARTER MENU/android.view.ViewGroup - button choose min 3 kanal'), 'enabled', 5)
-Mobile.delay(2)
-Mobile.verifyElementAttributeValue(findTestObject('STARTER MENU/android.view.ViewGroup - button choose min 3 kanal'),'enabled','false', 10)
+Mobile.verifyElementAttributeValue(findTestObject('STARTER MENU/android.widget.TextView - Pilih minimal 3 kanal'),'text','Pilih minimal 3 kanal', 10)
+
 Mobile.closeApplication()

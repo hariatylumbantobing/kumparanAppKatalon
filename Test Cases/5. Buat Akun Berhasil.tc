@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>5. Buat Akun gagal - format email invalid</name>
+   <name>5. Buat Akun Berhasil</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>feeae89e-743e-4a18-8e73-295b6a0ef439</testCaseGuid>
+   <testCaseGuid>d725ca5a-a569-4742-81e4-fa88f65e97e4</testCaseGuid>
 </TestCaseEntity>

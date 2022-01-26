@@ -53,8 +53,6 @@ Mobile.verifyElementExist(findTestObject('STARTER MENU/android.widget.TextView -
 //kita ubah caranya dengan getattribute terlebih dulu, lalu verifikasi value dari elemen tersebut.
 //di contoh kali ini kita get attribute nya, yaitu attribute "checked", dan kita harus verifikasi,
 //bahwa atribut tsb memiliki nilai "false"
-Mobile.getAttribute(findTestObject('STARTER MENU/android.view.ViewGroup - button Selanjutnya after choosing 3 kanals'), 'enabled', 5)
-Mobile.delay(2)
-Mobile.verifyElementAttributeValue(findTestObject('STARTER MENU/android.view.ViewGroup - button Selanjutnya after choosing 3 kanals'),'enabled','true', 10)
+Mobile.verifyElementAttributeValue(findTestObject('STARTER MENU/android.widget.TextView - button Selanjutnya'),'text','Selanjutnya', 10)
 
 
